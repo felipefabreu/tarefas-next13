@@ -1,7 +1,7 @@
 import { CustomButtonProps } from "../types";
 
 
-export const CustomButton = ({title, containerStyles, handleClick}: CustomButtonProps) => {
+const CustomButton = ({title, containerStyles, handleClick}: CustomButtonProps) => {
 
     return(
 
@@ -19,3 +19,5 @@ export const CustomButton = ({title, containerStyles, handleClick}: CustomButton
     );
 
 }
+
+export default CustomButton;

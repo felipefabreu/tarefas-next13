@@ -1,6 +1,6 @@
 
 
-export const Header = () => {
+const Header = () => {
   return (
     <header className='bg-neutral-800'>
         <nav className="left-0  mx-auto flex p-6 lg:px-8" aria-label="Global">
@@ -13,3 +13,5 @@ export const Header = () => {
       </header>
   )
 }
+
+export default Header;
