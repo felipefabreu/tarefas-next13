@@ -1,6 +1,6 @@
-import {Header} from "./Header";
-import {Aside} from "./Aside";
-import {CustomButton} from "./CustomButton";
+import {Header} from "./header";
+import {Aside} from "./aside";
+import {CustomButton} from "./customButton";
 
 export {
     Header,
